@@ -1,0 +1,10 @@
+{
+  "daemon": {
+    "host": "104.156.239.240",
+    "port": 12898,
+    "timeout": 8000
+  },
+  "queues": {
+    "relayAgent": "request.network"
+  }
+}
