@@ -1,7 +1,6 @@
-# TurtlePay®: Blockchain Relay Agent
-![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000) ![Prerequisite](https://img.shields.io/badge/node-%3E%3D6-blue.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/TurtlePay/blockchain-relay-agent/graphs/commit-activity) [![License: AGPL-3.0](https://img.shields.io/badge/license-AGL--3.0-yellow.svg)](https://github.com/TurtlePay/blockchain-relay-agent/blob/master/LICENSE) [![Twitter: TurtlePay](https://img.shields.io/twitter/follow/TurtlePay.svg?style=social)](https://twitter.com/TurtlePay)
+# MONCoin®: Blockchain Relay Agent
 
-> RabbitMQ agent that relays information to/from TurtleCoind to interact with the TurtleCoin® network.
+> RabbitMQ agent that relays information to/from MONCoind to interact with the MONCoin® network.
 
 ## Prerequisites
 
@@ -21,8 +20,8 @@ npm install
 ```javascript
 {
   "daemon": {
-    "host": "localhost",
-    "port": 11898
+    "host": "127.0.0.1",
+    "port": 12898
   },
   "queues": {
     "relayAgent": "request.network"
@@ -33,7 +32,7 @@ npm install
 2) Set your environment variables and start the service up
 
 ```sh
-export RABBIT_PUBLIC_SERVER=localhost
+export RABBIT_PUBLIC_SERVER=127.0.0.1
 export RABBIT_PUBLIC_USERNAME=yourrabbitmqusername
 export RABBIT_PUBLIC_PASSWORD=yourrabbitmqpassword
 npm start
@@ -50,13 +49,12 @@ npm test
 👤 **TurtlePay® Development Team**
 
 * Twitter: [@TurtlePay](https://twitter.com/TurtlePay)
-* Github: [@TurtlePay](https://github.com/TurtlePay)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/TurtlePay/blockchain-relay-agent/issues).
+Feel free to check [issues page](https://github.com/Kulteam/Blockchain-relay-agent/issues).
 
 ## Show your support
 
@@ -67,4 +65,4 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2018-2019 [TurtlePay® Development Team](https://github.com/TurtlePay).
 
-This project is [AGPL-3.0](https://github.com/TurtlePay/blockchain-relay-agent/blob/master/LICENSE) licensed.
+This project is [AGPL-3.0](https://github.com/Kulteam/Blockchain-relay-agent/blob/master/LICENSE) licensed.
