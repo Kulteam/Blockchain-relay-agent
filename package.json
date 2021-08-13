@@ -1,7 +1,7 @@
 {
-  "name": "turtlepay-bra",
+  "name": "Blockchain-relay-agent",
   "version": "0.0.5",
-  "description": "TurtlePay: Blockchain Relay Agent",
+  "description": "MONCoin: Blockchain Relay Agent",
   "main": "index.js",
   "scripts": {
     "test": "standard",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TurtlePay/blockchain-relay-agent.git"
+    "url": "git+https://github.com/Kulteam/Blockchain-relay-agent.git"
   },
   "keywords": [
-    "TurtlePay"
+    "MONCoin"
   ],
   "author": "TurtlePay Development Team",
   "license": "AGPL-3.0",
@@ -21,9 +21,9 @@
   },
   "engineStrict": true,
   "bugs": {
-    "url": "https://github.com/TurtlePay/blockchain-relay-agent/issues"
+    "url": "https://github.com/Kulteam/Blockchain-relay-agent/issues"
   },
-  "homepage": "https://github.com/TurtlePay/blockchain-relay-agent#readme",
+  "homepage": "https://github.com/Kulteam/Blockchain-relay-agent/#readme",
   "dependencies": {
     "amqplib": "^0.7.1",
     "colors": "^1.3.3",
