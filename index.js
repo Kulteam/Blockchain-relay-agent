@@ -27,7 +27,7 @@ if (cluster.isMaster) {
     Logger.warning('Node.js is not running in production mode. Consider running in production mode: export NODE_ENV=production')
   }
 
-  Logger.log('Starting TurtlePay Blockchain Relay Agent...')
+  Logger.log('Starting MONCoin Blockchain Relay Agent...')
 
   spawnNewWorker()
 
